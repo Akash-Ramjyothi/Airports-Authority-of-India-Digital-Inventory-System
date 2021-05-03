@@ -1,6 +1,6 @@
 ![AAI-1](https://user-images.githubusercontent.com/54114888/116945692-f1b1d480-ac95-11eb-894e-dbd598514dbc.jpg)
 
-# Airport-Authority-of-India-QR-Scanner
+# Airports Authority of India Digital Inventory System
 Developed an Android Application which can be used to easily check, maintain and keep a track of details about industrial equipments and also the service history with basic CRUD Operations. Details can also be changed by authorized personel from the client side application to the remote server.
 
 ## Sample Demo:
