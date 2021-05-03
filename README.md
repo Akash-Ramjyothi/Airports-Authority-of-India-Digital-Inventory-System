@@ -12,3 +12,9 @@ https://youtu.be/iA1HZghQF-o
 - ZXINGK Scanner Library
 - Firebase Backend Service
 - Firestore Database
+
+## Developed By:
+- Akash Ramjyothi.
+- E-Mail ID: +91 8939928002.
+- PH: +91 8939928002.
+- LinkedIn: https://www.linkedin.com/in/akash-ramjyothi/ 
