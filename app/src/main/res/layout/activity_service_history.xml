@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".service_history">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:id="@+id/lay"
+        >
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35dp"
+            android:text="Service History"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:orientation="vertical"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="10dp"
+        android:elevation="90dp">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/lay1"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:background="#C0C0C0"
+            >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/imagedef" />
+
+            <TextView
+                android:id="@+id/name1"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:textStyle="italic"
+                android:layout_marginTop="-130dp"
+                android:text="Akash Ramjyothi"
+                android:textColor="#121111"
+                android:layout_marginLeft="15dp"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/id1"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+                android:textColor="#121111"
+                android:layout_marginLeft="15dp"
+                android:textSize="15dp"
+                android:text="ID123"/>
+
+            <TextView
+                android:id="@+id/service1"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="Change of Motors"
+                android:textColor="#121111"
+                android:layout_marginLeft="15dp"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+                <LinearLayout
+
+                    android:id="@+id/lay2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="50dp"
+                    android:background="#C0C0C0"
+                    android:layout_below="@+id/lay1"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="180dp"
+                        android:layout_marginTop="20dp"
+                        app:srcCompat="@drawable/imagedef" />
+
+                    <TextView
+                        android:id="@+id/name2"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:textStyle="italic"
+                        android:layout_marginTop="-130dp"
+                        android:text="Akash Ramjyothi"
+                        android:textColor="#121111"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/id2"
+                        android:layout_width="200dp"
+                        android:layout_height="30dp"
+                        android:textStyle="bold"
+                        android:textColor="#121111"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="15dp"
+                        android:text="ID123"/>
+
+                    <TextView
+                        android:id="@+id/service2"
+                        android:layout_width="200dp"
+                        android:layout_height="60dp"
+                        android:text="Change of Motors"
+                        android:textColor="#121111"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="20dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:id="@+id/lay3"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="50dp"
+                    android:background="#C0C0C0"
+                    android:layout_below="@+id/lay2"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="180dp"
+                        android:layout_marginTop="20dp"
+                        app:srcCompat="@drawable/imagedef" />
+
+                    <TextView
+                        android:id="@+id/name3"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:textStyle="italic"
+                        android:layout_marginTop="-130dp"
+                        android:text="Akash Ramjyothi"
+                        android:textColor="#121111"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/id3"
+                        android:layout_width="200dp"
+                        android:layout_height="30dp"
+                        android:textStyle="bold"
+                        android:textColor="#121111"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="15dp"
+                        android:text="ID123"/>
+
+                    <TextView
+                        android:id="@+id/service3"
+                        android:layout_width="200dp"
+                        android:layout_height="60dp"
+                        android:text="Change of Motors"
+                        android:textColor="#121111"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="20dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:id="@+id/lay4"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="50dp"
+                    android:background="#C0C0C0"
+                    android:layout_below="@+id/lay3"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="180dp"
+                        android:layout_marginTop="20dp"
+                        app:srcCompat="@drawable/imagedef" />
+
+                    <TextView
+                        android:id="@+id/name4"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:textStyle="italic"
+                        android:layout_marginTop="-130dp"
+                        android:text="Akash Ramjyothi"
+                        android:textColor="#121111"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/id4"
+                        android:layout_width="200dp"
+                        android:layout_height="30dp"
+                        android:textStyle="bold"
+                        android:textColor="#121111"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="15dp"
+                        android:text="ID123"/>
+
+                    <TextView
+                        android:id="@+id/service4"
+                        android:layout_width="200dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="15dp"
+                        android:text="Change of Motors"
+                        android:textColor="#121111"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>
